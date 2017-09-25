@@ -11,7 +11,7 @@
 #include "logging.h"
 #include "protocol.h"
 
-char WorkerPath[] = "/home/fryme/multithreadingcpp_ws/bin/worker";
+char WorkerPath[] = "/home/box/final/worker";
 //ev::io m_ioWatcher; // For communication with worker
 
 class Worker
