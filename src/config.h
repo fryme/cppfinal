@@ -1,7 +1,7 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-#define HOME_PATH "/home/box/"
+#define HOME_PATH "/home/box/final/"
 
 // Logs
 #define LOG_FILE_ENABLED true
