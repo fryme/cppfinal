@@ -7,7 +7,7 @@
 #define LOG_FILE_ENABLED true
 #define USE_FIXED_LOG_FILE_NAME true
 #define LOG_FILE_NAME "log.txt"
-#define PATH_TO_LOGS_FOLDER HOME_PATH"logs/"
+#define PATH_TO_LOGS_FOLDER HOME_PATH
 
 // Workers
 //#define WorkerPath ""
