@@ -48,7 +48,7 @@ namespace  http
 
         std::istringstream iss(rowParts[1]);
         std::string path;
-        getline(iss, path, '&');
+        getline(iss, path, '?');
         m_resourcePath = path;
 
 /*
