@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+Persistent-Auth: true
+X-Powered-By: ASP.NET
+Date: Thu, 24 Aug 2017 18:06:40 GMT
+Content-Length: 197
+
+JavaScript Object Notation: application/json
+    Object
+        Member Key: IsStopping
+            False value
+            Key: IsStopping
+        Member Key: Uptime
+            String value: 20:08
+            Key: Uptime
+        Member Key: QueuedProcesses
+            Number value: 0
+            Key: QueuedProcesses
+        Member Key: ExecutingProcesses
+            Number value: 11
+            Key: ExecutingProcesses
+        Member Key: AgentsFree
+            Number value: 394
+            Key: AgentsFree
+        Member Key: AgentsTotal
+            Number value: 650
+            Key: AgentsTotal
+        Member Key: AgentsBroken
+            Number value: 0
+            Key: AgentsBroken
+        Member Key: AgentsUnavailable
+            Number value: 0
+            Key: AgentsUnavailable
+        Member Key: ServiceAssemblyVersion
+            String value: 1.4.6443.31472
+            Key: ServiceAssemblyVersion

@@ -1,0 +1,5 @@
+#!/bin/bash
+pkill -9 web_server
+pkill -9 worker
+ps awx | grep "web_server"
+ps awx | grep "worker"

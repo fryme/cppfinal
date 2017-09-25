@@ -1,0 +1,6 @@
+#!/bin/bash
+cp -r multithreadingcpp_ws/* ./
+sudo apt-get install libev-dev libev4
+cp /usr/lib/x86_64-linux-gnu/libev.a lib/
+cmake .
+make

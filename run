@@ -1,0 +1,5 @@
+#!/bin/bash
+./stop
+make
+./bin/web_server -h 127.0.0.1 -p 12345 -d ~/
+ps awx | grep "web_server"
