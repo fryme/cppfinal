@@ -167,6 +167,7 @@ private:
         {
             // Send work to worker
             CHECK_THROW(w->SendSocket(client), "SendSocket");
+            close(client);
         }
         else
         {

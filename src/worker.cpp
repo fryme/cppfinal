@@ -174,6 +174,7 @@ void ReadCommandCallback(struct ev_loop *loop, struct ev_io *watcher, int revent
 
                                     WriteTo(optionalFd, response.GetRaw());
                                     close(fd);
+                                    close(optionalFd);
                                     std::clog << std::hex << GetCurrentTid() << " <SendTask> resource sent, size: " << buffer.size()<< std::endl;
                                 }
                             }
