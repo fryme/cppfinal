@@ -46,10 +46,11 @@ namespace  http
         else
             m_type = RequestType::Post;
 
-        std::istringstream iss(rowParts[1]);
-        std::string path;
-        getline(iss, path, '?');
-        m_resourcePath = path;
+        std::string::size_type pos = rowParts[1].find_first_of('?');
+        if (pos != std::string::npos)
+            m_resourcePath = rowParts[1].substr(0, pos);
+        else
+            m_resourcePath = rowParts[1];
 
 /*
         for (const auto& part : httpParts)
